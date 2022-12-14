@@ -1,0 +1,6 @@
+* What is this for
+To start fast to make calculations with my prefered languaje.
+
+* Instructions
+- Clone this repo
+- npm install & run appropiate scripts

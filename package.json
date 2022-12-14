@@ -1,0 +1,23 @@
+{
+  "name": "my-elm-calc-starter",
+  "version": "1.0.0",
+  "description": "Cálculos veloces para decidir que conviene en cuanto aceite de mi auto",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "elm-tooling install",
+    "test": "elm-test-rs",
+    "elm": "elm-watch hot",
+    "dev": "concurrently -k \"elm-watch hot\" \"tailwindcss -i ./src/input.css -o ./build/style.css --watch\"",
+    "tail": "tailwindcss -i ./src/input.css -o ./build/style.css",
+    "build": "tailwindcss -i ./src/input.css -o ./build/style.css --minify && elm-watch make --optimize"
+  },
+  "author": "RF",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.8",
+    "concurrently": "^7.6.0",
+    "elm-tooling": "^1.10.0",
+    "elm-watch": "^1.1.1",
+    "tailwindcss": "^3.2.4"
+  }
+}
