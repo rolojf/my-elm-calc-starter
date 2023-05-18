@@ -15,7 +15,7 @@
   "license": "ISC",
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.8",
-    "concurrently": "^7.6.0",
+    "concurrently": "^8.0.1",
     "elm-tooling": "^1.10.0",
     "elm-watch": "^1.1.1",
     "tailwindcss": "^3.2.4"

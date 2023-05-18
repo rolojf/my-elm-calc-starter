@@ -7,7 +7,7 @@
     "dependencies": {
         "direct": {
             "EngageSoftware/elm-mustache": "1.0.0",
-            "dillonkearns/elm-markdown": "7.0.0",
+            "dillonkearns/elm-markdown": "7.0.1",
             "elm/browser": "1.0.2",
             "elm/core": "1.0.5",
             "elm/html": "1.0.0",
@@ -25,7 +25,7 @@
     },
     "test-dependencies": {
         "direct": {
-            "elm-explorations/test": "2.1.0"
+            "elm-explorations/test": "2.1.1"
         },
         "indirect": {
             "elm/bytes": "1.0.8",
